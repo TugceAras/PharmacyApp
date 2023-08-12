@@ -32,7 +32,7 @@
 - Location Kit
 - Site Kit
 
-> <strong>  💡  NOTE : </strong> If you want to take a look at these kits I use, you can learn this site 👇
+> <strong>  💡  NOTE : </strong> If you want to take a look at these kits I use, you can check this site 👇
 >
 > https://developer.huawei.com/consumer/en/hms/  
 <br>
