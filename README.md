@@ -24,7 +24,7 @@
 
 <br>
 
-## 👇 Used HMS Core Kits
+## 👇 Used Huawei HMS Core Kits
 - Account Kit
 - ADS Kit
 - Analytics Kit
