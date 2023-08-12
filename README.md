@@ -46,7 +46,7 @@
 - <strong> Navigation Screen </strong>
   - Site Kit : for get nearby pharmacies
 
-## 👇 Used Technologies
+## 👇 Structures Used
 - MVVM 
 - Hilt | DI
 - Coroutines
