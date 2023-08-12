@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_home"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="12dp"
+    app:strokeColor="@color/main_color"
+    app:strokeWidth="@dimen/_1sdp"
+    app:contentPadding="12dp"
+    android:layout_marginStart="@dimen/_12sdp"
+    android:layout_marginEnd="@dimen/_12sdp"
+    android:layout_marginTop="@dimen/_8sdp"
+    android:layout_marginBottom="@dimen/_8sdp"
+    app:cardCornerRadius="@dimen/_10sdp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_pharmacy_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="@string/pharmacy_name"
+            android:textStyle="bold"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tv_pharmacy_address"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_12sdp"
+            app:layout_constraintTop_toBottomOf="@id/tv_pharmacy_name"
+            android:text="@string/pharmacy_address"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/tv_pharmacy_phone"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_pharmacy_address"
+            android:text="@string/pharmacy_phone_number"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_10ssp"
+            />
+
+        <TextView
+            android:id="@+id/tv_pharmacy_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pharmacy_city"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_pharmacy_phone"
+            android:layout_marginTop="@dimen/_8sdp"
+            />
+
+        <TextView
+            android:id="@+id/tv_pharmacy_county"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/county"
+            android:textSize="@dimen/_10ssp"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@id/tv_pharmacy_city"
+            app:layout_constraintTop_toBottomOf="@id/tv_pharmacy_phone"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginStart="@dimen/_4sdp"
+            />
+
+       <androidx.cardview.widget.CardView
+           android:id="@+id/cardview_second"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:cardCornerRadius="@dimen/_6sdp"
+           android:layout_marginEnd="@dimen/_2sdp"
+           android:layout_marginBottom="@dimen/_2sdp"
+           >
+
+           <ImageButton
+               android:id="@+id/btn_phone"
+               android:layout_width="@dimen/_24sdp"
+               android:layout_height="@dimen/_24sdp"
+               android:src="@drawable/phone_icon"
+               android:background="@color/white"
+               app:layout_constraintEnd_toEndOf="parent"
+               app:layout_constraintBottom_toBottomOf="parent"
+               app:layout_constraintCircleRadius="@dimen/_20sdp"
+               android:backgroundTint="@color/second_light_grey"
+               android:clickable="true"
+               android:focusable="true"
+               />
+
+       </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

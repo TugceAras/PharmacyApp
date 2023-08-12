@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:hwads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeScreen"
+    android:background="@color/flash_white">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        hwads:layout_constraintStart_toStartOf="parent"
+        hwads:layout_constraintEnd_toEndOf="parent"
+        hwads:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="@string/duty_pharmacies"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp"
+        />
+
+    <ProgressBar
+        android:id="@+id/homeProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        hwads:layout_constraintStart_toStartOf="parent"
+        hwads:layout_constraintEnd_toEndOf="parent"
+        hwads:layout_constraintTop_toBottomOf="@id/tv_title"
+        hwads:layout_constraintBottom_toTopOf="@id/hw_banner_view"
+        style="?android:attr/progressBarStyle"
+        android:theme="@style/progressBar"
+        android:visibility="visible"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_home"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_12sdp"
+        hwads:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        hwads:layout_constraintStart_toStartOf="parent"
+        hwads:layout_constraintEnd_toEndOf="parent"
+        hwads:layout_constraintTop_toBottomOf="@id/tv_title"
+        hwads:layout_constraintBottom_toTopOf="@id/hw_banner_view"
+        />
+
+    <com.huawei.hms.ads.banner.BannerView
+        android:id="@+id/hw_banner_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        hwads:adId="testw6vs28auh3"
+        hwads:layout_constraintBottom_toBottomOf="parent"
+        hwads:layout_constraintStart_toStartOf="parent"
+        hwads:layout_constraintEnd_toEndOf="parent"
+        hwads:bannerSize="BANNER_SIZE_360_57"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

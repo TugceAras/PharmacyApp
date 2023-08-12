@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Eczanem</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Ana sayfa</string>
+    <string name="map">Harita</string>
+    <string name="please_sign_in_your_huawei_id">Huawei ID ile giriş yapınız</string>
+    <string name="welcome">Hoş Geldiniz!</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="pharmacy_name">Pharmacy Name</string>
+    <string name="pharmacy_address">Pharmacy Address</string>
+    <string name="pharmacy_phone_number">Pharmacy Phone Number</string>
+    <string name="pharmacy_city">Pharmacy City</string>
+    <string name="pharmacies_on_duty">Pharmacies On Duty</string>
+    <string name="county">County</string>
+    <string name="nearby_pharmacies">Yakındaki Eczaneler</string>
+    <string name="duty_pharmacies">Nöbetçi Eczaneler</string>
+    <string name="map_screen_toast_message">Eczane yol tarifi almak için pembe ikonlardan birine tıklayınız!</string>
+    <string name="login_successfully">Giriş başarılı!</string>
+    <string name="login_unsuccessfully">Giriş başarısız!</string>
+</resources>
