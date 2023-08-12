@@ -44,6 +44,8 @@
     - Location Kit : for get user current location
 - <strong> Navigation Screen </strong>
   - Site Kit : for get nearby pharmacies
+ 
+<br>
 
 ## 👇 Structures Used
 - MVVM 
