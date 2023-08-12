@@ -21,7 +21,6 @@
 - To learn how to integrate and use Huawei HMS Core kits. That's why I developed the Pharmacy application. <br>
     - <strong> Project Goal : </strong> <br>
       To inform the user about the duty pharmacies. At the same time, taking the user's location and showing nearby pharmacies on the map.
-
 <br>
 
 ## 👇 Used Huawei HMS Core Kits
